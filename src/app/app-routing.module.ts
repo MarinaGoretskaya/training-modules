@@ -10,13 +10,11 @@ const routes: Routes = [
   {path: 'about', loadChildren: './about/about.module#AboutModule'},
   {path: 'contacts', loadChildren: './contacts/contacts.module#ContactsModule'}
 ];
+ const h = asf;
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes),
-    HomeModule,
-    AboutModule,
-    ContactsModule
+    RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
 })
