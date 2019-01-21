@@ -8,7 +8,7 @@ import { AboutModule } from './about/about.module';
 import { ContactsModule } from './contacts/contacts.module';
 
 import { AppRoutingModule } from './app-routing.module';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -18,10 +18,10 @@ import { RouterModule, Routes } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule,
-    HomeModule,
-    AboutModule,
-    ContactsModule
+    RouterModule
+    // HomeModule,
+    // AboutModule,
+    // ContactsModule
 
   ],
   providers: [],
